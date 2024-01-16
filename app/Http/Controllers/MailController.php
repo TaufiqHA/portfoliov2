@@ -18,8 +18,6 @@ class MailController extends Controller
 
         Mail::to('htaufiq225@gmail.com')->send(new kirimEmail($emailData));
 
-        return back()->with([
-            'success' => 'Pesan Berhasil Terkirim'
-        ]);
+        return response()->json(['success' => "Pesan Berhasil Terkirim"]);
     }
 }
