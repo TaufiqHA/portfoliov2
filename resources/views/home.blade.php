@@ -179,7 +179,7 @@
             <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-1">
                 <div class="flex flex-col lg:flex-row gap-7 items-center">
                     <div>
-                        <img src="{{ asset('img/sita.jpg') }}" alt="sita" class="rounded-2xl">
+                        <img src="{{ asset('img/sita.jpg') }}" alt="sita1" class="rounded-2xl">
                     </div>
                     <div class="space-y-4 text-start">
                         <span
